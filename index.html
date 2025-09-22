@@ -1,1 +1,116 @@
-<!DOCTYPE html><html lang='ar'><head><meta charset='UTF-8'><title>Bye Bye Taxi</title></head><body><h1>مرحبا بكم في Bye Bye Taxi</h1></body></html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bye Bye | باي باي – الصفحة الرئيسية</title>
+  <meta name="description" content="باي باي، هو التطبيق الرائد في سوريا لتقديم خدمات النقل ضمن المحافظات السورية."/>
+  <link rel="canonical" href="https://byebyetaxi.app/"/>
+
+  <style>
+    :root{
+      --bg:#0f172a;        /* خلفية */
+      --card:#0b1024;      /* بطاقات */
+      --muted:#8ea3c7;     /* نص ثانوي */
+      --text:#f8fafc;      /* نص رئيسي */
+      --brand:#ff6a00;     /* برتقالي */
+      --link:#38bdf8;      /* أزرق الروابط */
+      --border:#1f2a44;    /* حدود ناعمة */
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Tajawal, "Segoe UI", Tahoma, Arial, sans-serif;line-height:1.75}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1000px;margin:auto;padding:22px}
+    header{border-bottom:1px solid var(--border);margin-bottom:24px}
+    .brand{color:var(--brand);font-weight:800;letter-spacing:.5px}
+    .hero{
+      background:linear-gradient(180deg,rgba(49,64,110,.35),rgba(16,21,38,.35));
+      border:1px solid var(--border); border-radius:20px; padding:28px;
+      box-shadow:0 10px 30px rgba(0,0,0,.25); margin-bottom:22px
+    }
+    .hero h1{margin:0 0 8px;font-size:28px}
+    .hero p{margin:6px 0 0;color:var(--muted)}
+    .grid{
+      display:grid; gap:16px;
+      grid-template-columns:repeat( auto-fit, minmax(260px,1fr) );
+      margin-top:16px
+    }
+    .card{
+      background:linear-gradient(180deg,rgba(31,41,85,.6),rgba(13,18,33,.6));
+      border:1px solid var(--border); border-radius:18px; padding:18px;
+      min-height:150px
+    }
+    .card h3{margin:0 0 10px;font-size:18px}
+    .list{margin:0;padding:0;list-style:none}
+    .list li{margin:10px 0}
+    .pill{
+      display:inline-block;border:1px solid var(--border);padding:6px 10px;border-radius:999px;color:var(--muted);font-size:13px
+    }
+    footer{
+      margin-top:28px; border-top:1px solid var(--border); padding:16px 0; color:var(--muted); font-size:14px
+    }
+    .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+    .cta{
+      display:inline-block;background:var(--brand);color:#111827;font-weight:700;
+      padding:10px 14px;border-radius:12px;margin-top:12px
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+        <div class="brand" style="font-size:22px">Bye Bye | باي باي</div>
+        <span class="pill">التطبيق الرائد في سوريا</span>
+      </div>
+    </header>
+
+    <section class="hero">
+      <h1>مرحباً بك في <span class="brand">Bye Bye</span></h1>
+      <p>باي باي، هو التطبيق الرائد في سوريا لتقديم خدمات النقل ضمن المحافظات السورية.</p>
+
+      <div class="links">
+        <a class="cta" href="index.html">الصفحة الرئيسية</a>
+        <a class="pill" href="terms-rider">الأحكام والشروط – تطبيق الراكب</a>
+        <a class="pill" href="terms-driver">الأحكام والشروط – تطبيق السائق</a>
+        <a class="pill" href="privacy-rider">سياسة الخصوصية – تطبيق الراكب</a>
+        <a class="pill" href="privacy-driver">سياسة الخصوصية – تطبيق السائق</a>
+        <a class="pill" href="copyright-rider">حقوق النشر – تطبيق الراكب</a>
+        <a class="pill" href="copyright-driver">حقوق النشر – تطبيق السائق</a>
+      </div>
+
+      <div style="margin-top:10px;color:var(--muted);font-size:14px">
+        آخر تحديث: <strong>September 2025</strong>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h3>الوثائق القانونية</h3>
+        <ul class="list">
+          <li>• <a href="terms-rider">الأحكام والشروط – تطبيق الراكب</a></li>
+          <li>• <a href="terms-driver">الأحكام والشروط – تطبيق السائق</a></li>
+          <li>• <a href="privacy-rider">سياسة الخصوصية – تطبيق الراكب</a></li>
+          <li>• <a href="privacy-driver">سياسة الخصوصية – تطبيق السائق</a></li>
+          <li>• <a href="copyright-rider">حقوق النشر – تطبيق الراكب</a></li>
+          <li>• <a href="copyright-driver">حقوق النشر – تطبيق السائق</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>تواصل معنا</h3>
+        <ul class="list">
+          <li>الهاتف: <a href="tel:0965340400">0965340400</a></li>
+          <li>البريد: <a href="mailto:info@byebyetaxi.app">info@byebyetaxi.app</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <div>© جميع الحقوق محفوظة. <span class="brand">Bye Bye</span></div>
+      <div style="margin-top:6px">Byebyetaxi.app IS THE OFFICIAL WEBSITE OF ALNASHAT ALMUTAEADID FOR TRADING COMPANY.</div>
+    </footer>
+  </div>
+</body>
+</html>
